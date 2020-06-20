@@ -18,3 +18,4 @@ Route::get('/', 'ImportExcelController@index');
 Route::post('/import', 'ImportExcelController@import');
 //Route::get('/import_excel', 'ImportExcelController@index');
 //Route::post('/import_excel/import', 'ImportExcelController@import');
+Route::get('/importToExcel', 'ImportController@importExcel');

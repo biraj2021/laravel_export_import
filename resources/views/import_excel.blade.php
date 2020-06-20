@@ -43,14 +43,16 @@
        </td>
       </tr>
       <tr>
-       <td width="40%" align="right"></td>
+       <td width="40%" align="right">Formats</td>
        <td width="30"><span class="text-muted">.xls, .xslx</span></td>
        <td width="30%" align="left"></td>
       </tr>
      </table>
     </div>
    </form>
-   
+   <div>
+        <a href="{{ url('/importToExcel') }}" class="btn btn-danger">Import in Excel</a>
+   </div>
    <br />
    <div class="panel panel-default">
     <div class="panel-heading">
